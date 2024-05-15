@@ -134,7 +134,7 @@ button:hover {
 
 @media screen and (max-width: 425px) {
   .producto img:hover{
-    transform: scale(2.5);
+    transform: scale(3.5);
     align-items: center;
     justify-content: center;
     
