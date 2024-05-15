@@ -94,7 +94,7 @@ button:hover {
     color: #fff;
 }
 
-#taladroBlack{
+/* #taladroBlack{
     opacity: 50%;
     pointer-events: none;
    
@@ -130,7 +130,7 @@ button:hover {
     border-radius: 10px;
     font-size: 40px;
     opacity: 100%;
-}
+} */
 
 @media screen and (max-width: 425px) {
   .producto img:hover{
