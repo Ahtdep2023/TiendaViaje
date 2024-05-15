@@ -61,10 +61,6 @@ h2{
     max-width: 100%;
 }
 
-.producto img:hover{
-    transform: scale(2.5);
-
-}
 
 .precio {
     font-weight: bold;
@@ -132,11 +128,15 @@ button:hover {
     opacity: 100%;
 } */
 
-@media screen and (max-width: 425px) {
+/* @media screen and (max-width: 425px) {
   .producto img:hover{
-    transform: scale(3.5);
+    transform: scale(2.5);
+    height: 80vh;
     align-items: center;
     justify-content: center;
     
 }
-}
+} */
+/* #exampleModal{
+    display: none;
+} */
