@@ -15,9 +15,8 @@
         <div>
             <h2>Muebles</h2>
         </div>
-        <section class="producto">
-            
-            <div class="productoContenedor">
+        <section class="producto">  
+        <div class="productoContenedor">
             <img src="./img/producto.png" alt="Producto 1" data-bs-toggle="modal" data-bs-target="#juegoComedor">
             <h2>Juego Comedor</h2>
             <p>Descripción del producto 1.</p>
@@ -25,48 +24,77 @@
             <button id="juegoComedor" class="comprar">Comprar</button>
             <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#juegoComedorModal">
                 ampliar
-              </button>
+            </button>
         </div>
-            <!-- boobstrap -->
-
-
-<!-- Modal -->
-<div class="modal fade" id="juegoComedorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img src="./img/producto.png">
-       
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="modal fade" id="juegoComedorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="./img/producto.png">
+                    </div>
+                 </div>
+             </div>
+        </div>
  
-
-            <div class="productoContenedor">
-            <img src="./img/producto.png" alt="Producto 2">
+        <div class="productoContenedor">
+            <img src="./img/producto.png" alt="Producto 2" data-bs-toggle="modal" data-bs-target="#placaMelamina">
             <h2>Placard de Melamina</h2>
             <p>Descripción del producto 2.</p>
             <p class="precio">$112.000</p>
             <button id="placaMelamina" class="comprar">Comprar</button>
+            <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#placardMelaminaModal">
+                ampliar
+            </button>
+        </div>
+        <div class="modal fade" id="placardMelaminaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <img src="./img/producto.png">
+                </div>
+              </div>
             </div>
+          </div>
 
-            <div id="chifonierMela" class="productoContenedor">
+        <div id="chifonierMela" class="productoContenedor">
             <img src="./img/producto.png" alt="Producto 3">
             <h2>Chifonier de Melamina</h2>
             <p>Descripción del producto 3.</p>
             <p class="precio">$56.000</p>
             <button id="chifonierMela" class="comprar">Comprar</button>
+            <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#chifonierMelaminaModal">
+                ampliar
+            </button>
+        </div>
+        <div class="modal fade" id="chifonierMelaminaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <img src="./img/producto.png">
+                </div>
+              </div>
             </div>
-            <!-- a cada item agregara al button id + clase comprar -->
+          </div>
             
-            <div id="zapateroMela" class="productoContenedor">
-                <img src="./img/producto.png" alt="Producto 4">
-                <h2>Zapatero de Melamina</h2>
-                <p>Descripción del producto 4.</p>
-                <p class="precio">$45.500</p>
-                <button id="comprarMuebles">Comprar</button>
+        <div id="zapateroMela" class="productoContenedor">
+            <img src="./img/producto.png" alt="Producto 4">
+            <h2>Zapatero de Melamina</h2>
+            <p>Descripción del producto 4.</p>
+            <p class="precio">$45.500</p>
+            <button id="comprarMuebles">Comprar</button>
+            <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#zapateroMelaminaModal">
+                ampliar
+            </button>
+        </div>
+        <div class="modal fade" id="zapateroMelaminaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <img src="./img/producto.png">
+                </div>
+              </div>
             </div>
+          </div>
 
             <div id="mesaLuz" class="productoContenedor">
             <img src="./img/producto.png" alt="Producto 5">
@@ -74,7 +102,19 @@
             <p>Descripción del producto 5.</p>
             <p class="precio">$21.000</p>
             <button id="comprarMuebles">Comprar</button>
-            </div>
+            <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mesaLuzModal">
+                ampliar
+            </button>    
+        </div>
+            <div class="modal fade" id="mesaLuzModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div id="bauleraInfa" class="productoContenedor">
                 <img src="./img/20240314_181039.jpg" alt="Producto 6">
@@ -86,26 +126,36 @@
                     ampliar
                   </button>
             </div>
-               
-                  
-                  <!-- Modal -->
-                  <div class="modal fade" id="bauleraInfaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="bauleraInfaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <img src="./img/20240314_181039.jpg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <img src="./img/20240314_181039.jpg">
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
 
-                <div class="productoContenedor">
-                    <img src="./img/producto.png" alt="Producto 7">
-                    <h2>Producto 7</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$25.00</p>
-                    <button id="comprarMuebles">Comprar</button>
+            <div class="productoContenedor">
+                <img src="./img/producto.png" alt="Producto 7">
+                <h2>Producto 7</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$25.00</p>
+                <button id="comprarMuebles">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#bauleraInfaModal">
+                    ampliar
+                  </button>
+                  <!-- cambiar el id segun el producto que agregue aqui -->
+            </div>
+                <div class="modal fade" id="bauleraInfaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <img src="./img/20240314_181039.jpg">
+                            </div>
+                        </div>
                     </div>
+                </div>
         </section>
 
         <div>
@@ -114,28 +164,64 @@
         <section class="producto">
             
             <div id="taladroBlack" class="productoContenedor">
-            <img src="./img/producto.png" alt="Producto 1">
-            <h2>Taladro black & decker</h2>
-            <p>Descripción del producto 1.</p>
-            <p class="precio">$56.000</p>
-            <button id="comprarHerramientas">Comprar</button>
+                <img src="./img/producto.png" alt="Producto 1">
+                <h2>Taladro black & decker</h2>
+                <p>Descripción del producto 1.</p>
+                <p class="precio">$56.000</p>
+                <button id="comprarHerramientas">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#taladroModal">
+                    ampliar
+                  </button>
             </div>
+            <div class="modal fade" id="taladroModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div id="mechasBremer" class="productoContenedor">
-            <img src="./img/producto.png" alt="Producto 2">
-            <h2>Juego de mechas bremer</h2>
-            <p>Descripción del producto 2.</p>
-            <p class="precio">$16.000</p>
-            <button id="comprarHerramientas">Comprar</button>
+                <img src="./img/producto.png" alt="Producto 2">
+                <h2>Juego de mechas bremer</h2>
+                <p>Descripción del producto 2.</p>
+                <p class="precio">$16.000</p>
+                <button id="comprarHerramientas">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mechasBremerModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="mechasBremerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div id="hidroByd" class="productoContenedor">
-            <img src="./img/producto.png" alt="Producto 3">
-            <h2>Hidro B&D</h2>
-            <p>Descripción del producto 3.</p>
-            <p class="precio">$84.500</p>
-            <button id="comprarHerramientas">Comprar</button>
+                <img src="./img/producto.png" alt="Producto 3">
+                <h2>Hidro B&D</h2>
+                <p>Descripción del producto 3.</p>
+                <p class="precio">$84.500</p>
+                <button id="comprarHerramientas">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#hidroBlackModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="hidroBlackModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
             
             <div id="moladoraByd" class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 4">
@@ -143,15 +229,39 @@
                 <p>Descripción del producto 4.</p>
                 <p class="precio">$42.000</p>
                 <button id="comprarHerramientas">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#moladoraBlackModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="moladoraBlackModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div id="cortadoraPasto" class="productoContenedor">
-            <img src="./img/20240314_185832.jpg" alt="Producto 5">
-            <h2>Cortadora de pasto</h2>
-            <p>Descripción del producto 5.</p>
-            <p class="precio">$189.000</p>
-            <button id="comprarHerramientas">Comprar</button>
+                <img src="./img/20240314_185832.jpg" alt="Producto 5">
+                <h2>Cortadora de pasto</h2>
+                <p>Descripción del producto 5.</p>
+                <p class="precio">$189.000</p>
+                <button id="comprarHerramientas">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#cortaPastoModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="cortaPastoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div id="escaleraAlu" class="productoContenedor">
                 <img src="./img/20240315_170627.jpg" alt="Producto 6">
@@ -159,22 +269,59 @@
                 <p>Descripción del producto 6.</p>
                 <p class="precio">$63.000</p>
                 <button id="comprarHerramientas">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#escaleraAluminioModal">
+                    ampliar
+                </button>
                 </div>
-
-                <div id="atornilladoraKroner" class="productoContenedor">
-                    <img src="./img/producto.png" alt="Producto 7">
-                    <h2>Atornillador Kroner</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$56.000</p>
-                    <button id="comprarHerramientas">Comprar</button>
+                <div class="modal fade" id="escaleraAluminioModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <img src="./img/20240315_170627.jpg">
+                        </div>
+                      </div>
                     </div>
-            <div class="productoContenedor">
-                    <img src="./img/producto.png" alt="Producto 8">
-                    <h2>Caladora Klatter</h2>
-                    <p>Descripción del producto 4.</p>
-                    <p class="precio">$22.500</p>
-                    <button id="comprarHerramientas">Comprar</button>
+                  </div>
+
+            <div id="atornilladoraKroner" class="productoContenedor">
+                <img src="./img/producto.png" alt="Producto 7">
+                <h2>Atornillador Kroner</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$56.000</p>
+                <button id="comprarHerramientas">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#atornilladorKronerModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="atornilladorKronerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="productoContenedor">
+                <img src="./img/producto.png" alt="Producto 8">
+                <h2>Caladora Klatter</h2>
+                <p>Descripción del producto 4.</p>
+                <p class="precio">$22.500</p>
+                <button id="comprarHerramientas">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#caladoraKlatterModal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="caladoraKlatterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
         </section>
 
         <div>
@@ -188,7 +335,19 @@
                 <p>Descripción del producto 1.</p>
                 <p class="precio">$399.000</p>
                 <button id="comprarElectrodomesticos">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#freezerGafaModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="freezerGafaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 2">
@@ -196,7 +355,19 @@
                 <p>Descripción del producto 2.</p>
                 <p class="precio">$460.000</p>
                 <button id="comprarElectrodomesticos">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#heladeraPatrickModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="heladeraPatrickModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 3">
@@ -204,7 +375,19 @@
                 <p>Descripción del producto 3.</p>
                 <p class="precio">$42.000</p>
                 <button id="comprarElectrodomesticos">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#microondasSanyoModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="microondasSanyoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
             
             <div class="productoContenedor">
                 <img src="./img/20240314_184404.jpg" alt="Producto 4">
@@ -212,7 +395,19 @@
                 <p>Descripción del producto 4.</p>
                 <p class="precio">$87.500</p>
                 <button id="comprarElectrodomesticos">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#aspiradoraPhilcoModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="aspiradoraPhilcoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_184404.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/20240314_182146.jpg" alt="Producto 5">
@@ -220,7 +415,19 @@
                 <p>Descripción del producto 5.</p>
                 <p class="precio">$8.000</p>
                 <button id="comprarElectrodomesticos">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#difusorAireModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="difusorAireModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_182146.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/20240314_182313.jpg" alt="Producto 6">
@@ -228,7 +435,19 @@
                 <p>Descripción del producto 6.</p>
                 <p class="precio">$35.000</p>
                 <button id="comprarElectrodomesticos">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#vaporizadorModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="vaporizadorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="../img/20240314_182313.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/20240314_182841.jpg" alt="Producto 7">
@@ -236,7 +455,19 @@
                 <p>Descripción del producto 7.</p>
                 <p class="precio">$28.000</p>
                 <button id="comprarElectrodomesticos">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#secadorPhillipsModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="secadorPhillipsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_182841.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/20240314_183038.jpg" alt="Producto 8">
@@ -244,7 +475,19 @@
                 <p>Descripción del producto 7.</p>
                 <p class="precio">$42.000</p>
                 <button id="comprarElectrodomesticos">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#nebulizadorPistonModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="nebulizadorPistonModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="../img/20240314_183038.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/20240314_183644.jpg" alt="Producto 9">
@@ -252,17 +495,42 @@
                 <p>Descripción del producto 7.</p>
                 <p class="precio">$77.000</p>
                 <button id="comprarElectrodomesticos">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#lustroAspiradoraModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="lustroAspiradoraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="/img/20240314_183644.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
-                <img src="./img/20240314_183038.jpg" alt="Producto 10">
+                <img src="./img/producto.png" alt="Producto 10">
                 <h2></h2>
                 <p>Descripción del producto 7.</p>
                 <p class="precio">$25.00</p>
                 <button id="comprarElectrodomesticos">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#lustroAspiradoraModal">
+                    ampliar
+                </button>
             </div>
-        </section>
+            <!-- cambiar id del modal luego de agregar el producto -->
+            <div class="modal fade" id="lustroAspiradoraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+        </section>
             <div>
                 <h2>Diversion y Otros</h2>
             </div>
@@ -274,7 +542,19 @@
                 <p>Descripción del producto 1.</p>
                 <p class="precio">$138.000</p>
                 <button id="comprarDiversion">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#consolaRetroModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="consolaRetroModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 2">
@@ -282,7 +562,19 @@
                 <p>Descripción del producto 2.</p>
                 <p class="precio">$144.000</p>
                 <button id="comprarDiversion">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#teleBghModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="teleBghModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 3">
@@ -290,7 +582,19 @@
                 <p>Descripción del producto 3.</p>
                 <p class="precio">$108.000</p>
                 <button id="comprarDiversion">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#telephillipModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="telephillipModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
             
             <div class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 4">
@@ -298,15 +602,39 @@
                 <p>Descripción del producto 4.</p>
                 <p class="precio">$96.000</p>
                 <button id="comprarDiversion">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#tele24PulgadasModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="tele24PulgadasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 5">
-                <h2>Proyecto Wambo t2</h2>
+                <h2>Proyector Wambo t2</h2>
                 <p>Descripción del producto 5.</p>
                 <p class="precio">$150.000</p>
                 <button id="comprarDiversion">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#proyectorWamboModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="proyectorWamboModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 6">
@@ -314,7 +642,19 @@
                 <p>Descripción del producto 6.</p>
                 <p class="precio">$72.000</p>
                 <button id="comprarDiversion">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#piletaMedianaModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="piletaMedianaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 7">
@@ -322,7 +662,19 @@
                 <p>Descripción del producto 7.</p>
                 <p class="precio">$180.000</p>
                 <button id="comprarDiversion">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#playStationModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="playStationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/20240314_182506.jpg" alt="Producto 8">
@@ -330,7 +682,19 @@
                 <p>Descripción del producto 7.</p>
                 <p class="precio">$17.000</p>
                 <button id="comprarDiversion">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#extensorWifiModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="extensorWifiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_182506.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
         </section>
 
         <div>
@@ -344,7 +708,19 @@
             <p>Descripción del producto 1.</p>
             <p class="precio">$75.000</p>
             <button id="comprarVarios">Comprar</button>
+            <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#gazeboModal">
+                ampliar
+            </button>
             </div>
+            <div class="modal fade" id="gazeboModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_182506.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
             <img src="./img/20240314_184605.jpg" alt="Producto 2">
@@ -352,7 +728,19 @@
             <p>Descripción del producto 2.</p>
             <p class="precio">$36.000</p>
             <button id="comprarVarios">Comprar</button>
+            <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mesaCarroPlayaModal">
+                ampliar
+            </button>
             </div>
+            <div class="modal fade" id="mesaCarroPlayaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_184605.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
             <img src="./img/producto.png" alt="Producto 3">
@@ -360,7 +748,19 @@
             <p>Descripción del producto 3.</p>
             <p class="precio">$35.700</p>
             <button id="comprarVarios">Comprar</button>
+            <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#membranaTechoModal">
+                ampliar
+            </button>
             </div>
+            <div class="modal fade" id="membranaTechoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
             
             <div class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 4">
@@ -368,15 +768,39 @@
                 <p>Descripción del producto 4.</p>
                 <p class="precio">$140.500</p>
                 <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#metegolModal">
+                    ampliar
+                </button>
             </div>
+            <div class="modal fade" id="metegolModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
-            <img src="./img/producto.png" alt="Producto 5">
-            <h2>disco de Arado</h2>
-            <p>Descripción del producto 5.</p>
-            <p class="precio">$30.000</p>
-            <button id="comprarVarios">Comprar</button>
+                <img src="./img/producto.png" alt="Producto 5">
+                <h2>disco de Arado</h2>
+                <p>Descripción del producto 5.</p>
+                <p class="precio">$30.000</p>
+                <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#discoAradoModal">
+                ampliar
+                </button>
             </div>
+            <div class="modal fade" id="discoAradoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="productoContenedor">
                 <img src="./img/producto.png" alt="Producto 6">
@@ -384,80 +808,200 @@
                 <p>Descripción del producto 6.</p>
                 <p class="precio">$90.000</p>
                 <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#dispenserModal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="dispenserModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <div class="productoContenedor">
-                    <img src="./img/producto.png" alt="Producto 7">
-                    <h2>Reflector 50W</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$18.000</p>
-                    <button id="comprarVarios">Comprar</button>
+            <div class="productoContenedor">
+                <img src="./img/producto.png" alt="Producto 7">
+                <h2>Reflector 50W</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$18.000</p>
+                <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#reflector50Modal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="reflector50Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/producto.png">
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <div class="productoContenedor">
-                    <img src="./img/20240314_181154.jpg" alt="Producto 8">
-                    <h2>Cochecito + huevito kiddy</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$160.000</p>
-                    <button id="comprarVarios">Comprar</button>
+            <div class="productoContenedor">
+                <img src="./img/20240314_181154.jpg" alt="Producto 8">
+                <h2>Cochecito + huevito kiddy</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$160.000</p>
+                <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#cocheBebeModal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="cocheBebeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_181154.jpg">
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <div class="productoContenedor">
-                    <img src="./img/20240314_183431.jpg" alt="Producto 9">
-                    <h2>Patines Kossok Niño</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$35.000</p>
-                    <button id="comprarVarios">Comprar</button>
+            <div class="productoContenedor">
+                <img src="./img/20240314_183431.jpg" alt="Producto 9">
+                <h2>Patines Kossok Niño</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$35.000</p>
+                <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#patinesKossokModal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="patinesKossokModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_183431.jpg">
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <div class="productoContenedor">
-                    <img src="./img/20240314_184131.jpg" alt="Producto 10">
-                    <h2>Patas de Rana Pino</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$26.000</p>
-                    <button id="comprarVarios">Comprar</button>
+            <div class="productoContenedor">
+                <img src="./img/20240314_184131.jpg" alt="Producto 10">
+                <h2>Patas de Rana Pino</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$26.000</p>
+                <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#patasRanaModal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="patasRanaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_184131.jpg">
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <div class="productoContenedor">
-                    <img src="./img/20240314_184640.jpg" alt="Producto 11">
-                    <h2>Paraguas</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$18.000</p>
-                    <button id="comprarVarios">Comprar</button>
+            <div class="productoContenedor">
+                <img src="./img/20240314_184640.jpg" alt="Producto 11">
+                <h2>Paraguas</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$18.000</p>
+                <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#paraguasModal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="paraguasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_184640.jpg">
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <div class="productoContenedor">
-                    <img src="./img/20240314_184744.jpg" alt="Producto 12">
-                    <h2>Sillita Coche GTS Isofix</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$130.000</p>
-                    <button id="comprarVarios">Comprar</button>
+            <div class="productoContenedor">
+                <img src="./img/20240314_184744.jpg" alt="Producto 12">
+                <h2>Sillita Coche GTS Isofix</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$130.000</p>
+                <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#sillitaCocheModal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="sillitaCocheModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_184744.jpg">
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <div class="productoContenedor">
-                    <img src="./img/20240314_185250.jpg" alt="Producto 13">
-                    <h2>Disco Rigido 500gb WD</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$35.000</p>
+            <div class="productoContenedor">
+                <img src="./img/20240314_185250.jpg" alt="Producto 13">
+                <h2>Disco Rigido 500gb WD</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$35.000</p>
                     <button id="comprarVarios">Comprar</button>
+                    <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#disco500Modal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="disco500Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="../img/20240314_185250.jpg">
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <div class="productoContenedor">
-                    <img src="./img/20240314_185943.jpg" alt="Producto 14">
-                    <h2>Gato Hidraulico Ventra</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$12.000</p>
-                    <button id="comprarVarios">Comprar</button>
+            <div class="productoContenedor">
+                <img src="./img/20240314_185943.jpg" alt="Producto 14">
+                <h2>Gato Hidraulico Ventra</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$12.000</p>
+                <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#gatoHidraulicoModal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="gatoHidraulicoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_185943.jpg">
+                    </div>
+                  </div>
                 </div>
+              </div>
                 
-                <div class="productoContenedor">
-                    <img src="./img/20240314_190218.jpg" alt="Producto 14">
-                    <h2>Tender de pared plegable</h2>
-                    <p>Descripción del producto 7.</p>
-                    <p class="precio">$21.000</p>
-                    <button id="comprarVarios">Comprar</button>
+            <div class="productoContenedor">
+                <img src="./img/20240314_190218.jpg" alt="Producto 14">
+                <h2>Tender de pared plegable</h2>
+                <p>Descripción del producto 7.</p>
+                <p class="precio">$21.000</p>
+                <button id="comprarVarios">Comprar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#tenderPlegableModal">
+                    ampliar
+                </button>
+            </div>
+            <div class="modal fade" id="tenderPlegableModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./img/20240314_190218.jpg">
+                    </div>
+                  </div>
                 </div>
-            </section>
+              </div>
+        </section>
             <button class="volverArriba"><a href="index.html#arriba">Volver arriba</a></button>
 
         <!-- Agrega más tarjetas de productos según tus necesidades -->
