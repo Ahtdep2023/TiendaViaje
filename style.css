@@ -99,31 +99,12 @@ button:hover {
     border-radius: 10px;
 }
 
-/* #taladroBlack{
-    opacity: 50%;
-    pointer-events: none;
-   
-   position: relative;
-}
-#taladroBlack::after{
-    content: "Vendido";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 0, 0, 0.5);
-    color: white;
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 40px;
-    opacity: 100%;
-}
-#juegoComedor{
+#juego-comedor{
     opacity: 50%;
     pointer-events: none;
     position: relative;
 }
-#juegoComedor::after{
+#juego-comedor::after{
     content: "Vendido";
     position: absolute;
     top: 50%;
@@ -135,7 +116,7 @@ button:hover {
     border-radius: 10px;
     font-size: 40px;
     opacity: 100%;
-} */
+}
 
 /* @media screen and (max-width: 425px) {
   .producto img:hover{
