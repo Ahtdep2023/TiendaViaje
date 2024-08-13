@@ -64,7 +64,6 @@ h2{
 
 .producto img {
     max-width: 100%;
-
 }
 
 
@@ -99,24 +98,439 @@ button:hover {
     border-radius: 10px;
 }
 
-#juego-comedor{
-    opacity: 50%;
+/* #juego-comedor{
     pointer-events: none;
     position: relative;
 }
 #juego-comedor::after{
-    content: "Vendido";
+    content: "VENDIDO";
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 0, 0, 0.5);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
     color: white;
     padding: 5px;
     border-radius: 10px;
-    font-size: 40px;
-    opacity: 100%;
+    font-size: 36px;
+} */
+
+/* #baihut{
+    pointer-events: none;
+    position: relative;
 }
+#baihut::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #placard-melamina{
+    pointer-events: none;
+    position: relative;
+}
+#placard-melamina::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #chifonier-mela{
+    pointer-events: none;
+    position: relative;
+}
+#chifonier-mela::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #zapatero-melamina{
+    pointer-events: none;
+    position: relative;
+}
+#zapatero-melamina::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #mesas-de-luz{
+    pointer-events: none;
+    position: relative;
+}
+#mesas-de-luz::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #baulera-infantil{
+    pointer-events: none;
+    position: relative;
+}
+#baulera-infantil::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #cama-marinera{
+    pointer-events: none;
+    position: relative;
+}
+#cama-marinera::after{
+     content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #camita-infantil{
+    pointer-events: none;
+    position: relative;
+}
+#camita-infantil::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #mesa-luz-infantil{
+    pointer-events: none;
+    position: relative;
+}
+#mesa-luz-infantil::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #repisa-infantil{
+    pointer-events: none;
+    position: relative;
+}
+#repisa-infantil::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #contenedor-vertical{
+    pointer-events: none;
+    position: relative;
+}
+#contenedor-vertical::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #biblioteca-madera{
+    pointer-events: none;
+    position: relative;
+}
+#biblioteca-madera::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 140px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #sillon-tres-cuerpos{
+    pointer-events: none;
+    position: relative;
+}
+#sillon-tres-cuerpos::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 140px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #taladro-black{
+    pointer-events: none;
+    position: relative;
+}
+#taladro-black::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #mechas-bremer{
+    pointer-events: none;
+    position: relative;
+}
+#mechas-bremer::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #hidrolavadora-black{
+    pointer-events: none;
+    position: relative;
+}
+#hidrolavadora-black::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #moladora-black{
+    pointer-events: none;
+    position: relative;
+}
+#moladora-black::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #cortadora-de-pasto{
+    pointer-events: none;
+    position: relative;
+}
+#cortadora-de-pasto::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #escalera-aluminio{
+    pointer-events: none;
+    position: relative;
+}
+#escalera-aluminio::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #atornillador-kroner{
+    pointer-events: none;
+    position: relative;
+}
+#atornillador-kroner::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #caladora-klatter{
+    pointer-events: none;
+    position: relative;
+}
+#caladora-klatter::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #lijadora-barovo{
+    pointer-events: none;
+    position: relative;
+}
+#lijadora-barovo::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+#lijadora-barovo{
+    pointer-events: none;
+    position: relative;
+}
+#lijadora-barovo::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+}
+
+
 
 /* @media screen and (max-width: 425px) {
   .producto img:hover{
