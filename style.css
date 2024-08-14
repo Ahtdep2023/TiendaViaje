@@ -97,6 +97,7 @@ button:hover {
 .comprar{
     border-radius: 10px;
 }
+/*..............................DESDE ACA HABILITO LOS BOTONES DE VENDIDO................*/
 
 /* #juego-comedor{
     pointer-events: none;
@@ -350,6 +351,8 @@ button:hover {
     font-size: 36px;
 } */
 
+/*..................................EMPIEZAN LAS HERRAMIENTAS.........................*/
+
 /* #taladro-black{
     pointer-events: none;
     position: relative;
@@ -512,11 +515,13 @@ button:hover {
     font-size: 36px;
 } */
 
-#lijadora-barovo{
+/*............................ ACA EMPIEZAN LOS ELECTRODOMESTICOS.....................*/
+
+/* #freezer-gafa{
     pointer-events: none;
     position: relative;
 }
-#lijadora-barovo::after{
+#freezer-gafa::after{
     content: "VENDIDO";
     position: absolute;
     top: 120%;
@@ -528,10 +533,731 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
+} */
+
+/* #heladera-patrick{
+    pointer-events: none;
+    position: relative;
 }
+#heladera-patrick::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
 
+/* #microondas-noblex{
+    pointer-events: none;
+    position: relative;
+}
+#microondas-noblex::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
 
+/* #aspiradora-philco{
+    pointer-events: none;
+    position: relative;
+}
+#aspiradora-philco::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
 
+/* #difusor-led{
+    pointer-events: none;
+    position: relative;
+}
+#difusor-led::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #vaporizador-silfab{
+    pointer-events: none;
+    position: relative;
+}
+#vaporizador-silfab::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #secador-phillip{
+    pointer-events: none;
+    position: relative;
+}
+#secador-phillip::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #nebulizador-silfab{
+    pointer-events: none;
+    position: relative;
+}
+#nebulizador-silfab::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #lustro-aspiradora{
+    pointer-events: none;
+    position: relative;
+}
+#lustro-aspiradora::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #cafetera-dolce-gusto{
+    pointer-events: none;
+    position: relative;
+}
+#cafetera-dolce-gusto::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #tostadora-phillips{
+    pointer-events: none;
+    position: relative;
+}
+#tostadora-phillips::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #vaporera-liliana{
+    pointer-events: none;
+    position: relative;
+}
+#vaporera-liliana::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #tostadora-phillips{
+    pointer-events: none;
+    position: relative;
+}
+#tostadora-phillips::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #cafetera-liliana{
+    pointer-events: none;
+    position: relative;
+}
+#cafetera-liliana::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* ...................ACA EMPIEZA DIVERSION Y OTROS.....................*/
+
+/* #consola-retro{
+    pointer-events: none;
+    position: relative;
+}
+#consola-retro::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #tele-42-bgh{
+    pointer-events: none;
+    position: relative;
+}
+#tele-42-bgh::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #tele-32-phillip{
+    pointer-events: none;
+    position: relative;
+}
+#tele-32-phillip::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #tele-24{
+    pointer-events: none;
+    position: relative;
+}
+#tele-24::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #proyector-wambo{
+    pointer-events: none;
+    position: relative;
+}
+#proyector-wambo::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #pile-lona{
+    pointer-events: none;
+    position: relative;
+}
+#pile-lona::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #play-3-kit-move{
+    pointer-events: none;
+    position: relative;
+}
+#play-3-kit-move::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #extensor-wifi-tplink{
+    pointer-events: none;
+    position: relative;
+}
+#extensor-wifi-tplink::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #bici-rodado{
+    pointer-events: none;
+    position: relative;
+}
+#bici-rodado::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #set-libros{
+    pointer-events: none;
+    position: relative;
+}
+#set-libros::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/*........................ACA EMPIEZAN LOS VARIOS.....................*/
+
+/* #gazebo-3x3{
+    pointer-events: none;
+    position: relative;
+}
+#gazebo-3x3::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #mesa-carro-playa{
+    pointer-events: none;
+    position: relative;
+}
+#mesa-carro-playa::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #membrana-asfaltica{
+    pointer-events: none;
+    position: relative;
+}
+#membrana-asfaltica::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #metegol-aluminio{
+    pointer-events: none;
+    position: relative;
+}
+#metegol-aluminio::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #disco-de-arado{
+    pointer-events: none;
+    position: relative;
+}
+#disco-de-arado::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #dispenser-frio-calor{
+    pointer-events: none;
+    position: relative;
+}
+#dispenser-frio-calor::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #reflector-50w{
+    pointer-events: none;
+    position: relative;
+}
+#reflector-50w::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #cochecito-bebe{
+    pointer-events: none;
+    position: relative;
+}
+#cochecito-bebe::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #patines-kossok{
+    pointer-events: none;
+    position: relative;
+}
+#patines-kossok::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #patas-de-rana{
+    pointer-events: none;
+    position: relative;
+}
+#patas-de-rana::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #paraguas-varios{
+    pointer-events: none;
+    position: relative;
+}
+#paraguas-varios::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #sillita-auto{
+    pointer-events: none;
+    position: relative;
+}
+#sillita-auto::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #disco-500g{
+    pointer-events: none;
+    position: relative;
+}
+#disco-500g::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #gato-hidraulico{
+    pointer-events: none;
+    position: relative;
+}
+#gato-hidraulico::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #tender-plegable{
+    pointer-events: none;
+    position: relative;
+}
+#tender-plegable::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #juego-prensa-asador{
+    pointer-events: none;
+    position: relative;
+}
+#juego-prensa-asador::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #plancheta{
+    pointer-events: none;
+    position: relative;
+}
+#plancheta::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
 /* @media screen and (max-width: 425px) {
   .producto img:hover{
     transform: scale(2.5);
