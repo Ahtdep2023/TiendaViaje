@@ -1274,11 +1274,11 @@ button:hover {
 
 @media (max-width: 576px) {
     .productoContenedor {
-        width: 160px;
+        width: 155px;
         padding: 1rem;
         border: 1px solid;
         border-radius: 0.5rem;
-        background-color: #f4f4f4;
+        /* background-color: #f4f4f4; */
         display: flex;
         flex-direction: column;
         align-content: stretch;
