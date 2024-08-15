@@ -1274,7 +1274,7 @@ button:hover {
 
 @media (max-width: 576px) {
     .productoContenedor {
-        width: 180px;
+        width: 160px;
         padding: 1rem;
         border: 1px solid;
         border-radius: 0.5rem;
@@ -1283,7 +1283,7 @@ button:hover {
         flex-direction: column;
         align-content: stretch;
         flex-wrap: nowrap;
-        background-color: rgb(161, 172, 182);
+        background-color: rgb(199, 205, 211);
     }
    
 }
