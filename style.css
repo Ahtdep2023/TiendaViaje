@@ -336,14 +336,14 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #sillon-tres-cuerpos{
+#sillon-tres-cuerpos{
     pointer-events: none;
     position: relative;
 }
 #sillon-tres-cuerpos::after{
     content: "VENDIDO";
     position: absolute;
-    top: 90%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 140px;
@@ -352,7 +352,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /*..................................EMPIEZAN LAS HERRAMIENTAS.........................*/
 
@@ -374,14 +374,14 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #mechas-bremer{
+#mechas-bremer{
     pointer-events: none;
     position: relative;
 }
 #mechas-bremer::after{
     content: "VENDIDO";
     position: absolute;
-    top: 90%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 160px;
@@ -390,7 +390,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #hidrolavadora-black{
     pointer-events: none;
@@ -446,7 +446,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #escalera-aluminio{
+#escalera-aluminio{
     pointer-events: none;
     position: relative;
 }
@@ -462,7 +462,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #atornillador-kroner{
     pointer-events: none;
@@ -574,14 +574,14 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #aspiradora-philco{
+#aspiradora-philco{
     pointer-events: none;
     position: relative;
 }
 #aspiradora-philco::after{
     content: "VENDIDO";
     position: absolute;
-    top: 120%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 160px;
@@ -590,7 +590,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #difusor-led{
     pointer-events: none;
@@ -774,7 +774,7 @@ button:hover {
 
 /* ...................ACA EMPIEZA DIVERSION Y OTROS.....................*/
 
-/* #consola-retro{
+#consola-retro{
     pointer-events: none;
     position: relative;
 }
@@ -790,7 +790,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #tele-42-bgh{
     pointer-events: none;
@@ -810,7 +810,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #tele-32-phillip{
+#tele-32-phillip{
     pointer-events: none;
     position: relative;
 }
@@ -826,7 +826,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #tele-24{
     pointer-events: none;
@@ -956,11 +956,29 @@ button:hover {
 
 /*........................ACA EMPIEZAN LOS VARIOS.....................*/
 
-/* #gazebo-3x3{
+#gazebo-3x3{
     pointer-events: none;
     position: relative;
 }
 #gazebo-3x3::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 180px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+}
+
+/* #mesa-carro-playa{
+    pointer-events: none;
+    position: relative;
+}
+#mesa-carro-playa::after{
     content: "VENDIDO";
     position: absolute;
     top: 100%;
@@ -974,11 +992,11 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #mesa-carro-playa{
+/* #carpa-automatica-playa{
     pointer-events: none;
     position: relative;
 }
-#mesa-carro-playa::after{
+#carpa-automatica-playa::after{
     content: "VENDIDO";
     position: absolute;
     top: 100%;
@@ -1190,25 +1208,25 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #gato-hidraulico{
+#gato-hidraulico{
     pointer-events: none;
     position: relative;
 }
 #gato-hidraulico::after{
     content: "VENDIDO";
     position: absolute;
-    top: 100%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 160px;
+    height: 150px;
     background-color: rgba(255, 0, 0, 0.9);
     color: white;
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
-/* #tender-plegable{
+#tender-plegable{
     pointer-events: none;
     position: relative;
 }
@@ -1218,13 +1236,13 @@ button:hover {
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 160px;
+    height: 140px;
     background-color: rgba(255, 0, 0, 0.9);
     color: white;
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #juego-prensa-asador{
     pointer-events: none;
@@ -1283,7 +1301,7 @@ button:hover {
         flex-direction: column;
         align-content: stretch;
         flex-wrap: nowrap;
-        background-color: rgb(199, 205, 211);
+        background-color: rgb(225, 230, 235);
     }
    
 }
