@@ -35,6 +35,13 @@ main {
 h2{
     margin-top: 1rem;
 }
+.titulo{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 5px 2px 5px;
+    margin-bottom: 15px;
+    background-color: #f3e564;
+}
 
 
 
@@ -517,6 +524,23 @@ button:hover {
     border-radius: 10px;
     font-size: 36px;
 } */
+/* #bordeadora{
+    pointer-events: none;
+    position: relative;
+}
+#bordeadora::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
 
 /*............................ ACA EMPIEZAN LOS ELECTRODOMESTICOS.....................*/
 
@@ -736,11 +760,113 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #tostadora-phillips{
+/* #cafetera-moulinex{
     pointer-events: none;
     position: relative;
 }
-#tostadora-phillips::after{
+#cafetera-moulinex::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+/* #ventilador-liliana{
+    pointer-events: none;
+    position: relative;
+}
+#ventilador-liliana::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+/* #ventilador-duo{
+    pointer-events: none;
+    position: relative;
+}
+#ventilador-duo::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+/* #procesadora-liliana{
+    pointer-events: none;
+    position: relative;
+}
+#procesadora-liliana::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+/* #mini-pimmer{
+    pointer-events: none;
+    position: relative;
+}
+#mini-pimmer::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+/* #batidora-atma{
+    pointer-events: none;
+    position: relative;
+}
+#batidora-atma::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+/* #lavarropa-gafa{
+    pointer-events: none;
+    position: relative;
+}
+#lavarropa-gafa::after{
     content: "VENDIDO";
     position: absolute;
     top: 120%;
@@ -754,23 +880,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #cafetera-liliana{
-    pointer-events: none;
-    position: relative;
-}
-#cafetera-liliana::after{
-    content: "VENDIDO";
-    position: absolute;
-    top: 120%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 160px;
-    background-color: rgba(255, 0, 0, 0.9);
-    color: white;
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 36px;
-} */
+
 
 /* ...................ACA EMPIEZA DIVERSION Y OTROS.....................*/
 
@@ -1267,6 +1377,24 @@ button:hover {
     position: relative;
 }
 #plancheta::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+} */
+
+/* #colchon-meyer{
+    pointer-events: none;
+    position: relative;
+}
+#colchon-meyer::after{
     content: "VENDIDO";
     position: absolute;
     top: 100%;
