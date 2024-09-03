@@ -127,7 +127,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #baihut{
+#baihut{
     pointer-events: none;
     position: relative;
 }
@@ -143,7 +143,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #placard-melamina{
     pointer-events: none;
@@ -163,7 +163,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #chifonier-mela{
+#chifonier-mela{
     pointer-events: none;
     position: relative;
 }
@@ -179,7 +179,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #zapatero-melamina{
     pointer-events: none;
@@ -217,7 +217,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #baulera-infantil{
+#baulera-infantil{
     pointer-events: none;
     position: relative;
 }
@@ -233,7 +233,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #cama-marinera{
     pointer-events: none;
@@ -289,7 +289,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #repisa-infantil{
+#repisa-infantil{
     pointer-events: none;
     position: relative;
 }
@@ -305,9 +305,9 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
-/* #contenedor-vertical{
+#contenedor-vertical{
     pointer-events: none;
     position: relative;
 }
@@ -323,9 +323,9 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
-/* #biblioteca-madera{
+#biblioteca-madera{
     pointer-events: none;
     position: relative;
 }
@@ -341,7 +341,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #sillon-tres-cuerpos{
     pointer-events: none;
@@ -399,7 +399,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #hidrolavadora-black{
+#hidrolavadora-black{
     pointer-events: none;
     position: relative;
 }
@@ -415,7 +415,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #moladora-black{
     pointer-events: none;
@@ -435,7 +435,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #cortadora-de-pasto{
+#cortadora-de-pasto{
     pointer-events: none;
     position: relative;
 }
@@ -451,7 +451,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #escalera-aluminio{
     pointer-events: none;
@@ -471,7 +471,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #atornillador-kroner{
+#atornillador-kroner{
     pointer-events: none;
     position: relative;
 }
@@ -487,9 +487,9 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
-/* #caladora-klatter{
+#caladora-klatter{
     pointer-events: none;
     position: relative;
 }
@@ -505,7 +505,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #lijadora-barovo{
     pointer-events: none;
@@ -544,7 +544,7 @@ button:hover {
 
 /*............................ ACA EMPIEZAN LOS ELECTRODOMESTICOS.....................*/
 
-/* #freezer-gafa{
+#freezer-gafa{
     pointer-events: none;
     position: relative;
 }
@@ -560,9 +560,9 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
-/* #heladera-patrick{
+#heladera-patrick{
     pointer-events: none;
     position: relative;
 }
@@ -578,9 +578,9 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
-/* #microondas-noblex{
+#microondas-noblex{
     pointer-events: none;
     position: relative;
 }
@@ -596,7 +596,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #aspiradora-philco{
     pointer-events: none;
@@ -616,7 +616,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #difusor-led{
+#difusor-led{
     pointer-events: none;
     position: relative;
 }
@@ -632,7 +632,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #vaporizador-silfab{
     pointer-events: none;
@@ -688,7 +688,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #lustro-aspiradora{
+#lustro-aspiradora{
     pointer-events: none;
     position: relative;
 }
@@ -704,7 +704,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #cafetera-dolce-gusto{
     pointer-events: none;
@@ -777,7 +777,7 @@ button:hover {
     border-radius: 10px;
     font-size: 36px;
 } */
-/* #ventilador-liliana{
+#ventilador-liliana{
     pointer-events: none;
     position: relative;
 }
@@ -793,8 +793,8 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
-/* #ventilador-duo{
+}
+#ventilador-duo{
     pointer-events: none;
     position: relative;
 }
@@ -810,8 +810,8 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
-/* #procesadora-liliana{
+}
+#procesadora-liliana{
     pointer-events: none;
     position: relative;
 }
@@ -827,8 +827,8 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
-/* #mini-pimmer{
+}
+#mini-pimmer{
     pointer-events: none;
     position: relative;
 }
@@ -844,7 +844,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 /* #batidora-atma{
     pointer-events: none;
     position: relative;
@@ -862,7 +862,7 @@ button:hover {
     border-radius: 10px;
     font-size: 36px;
 } */
-/* #lavarropa-gafa{
+#lavarropa-gafa{
     pointer-events: none;
     position: relative;
 }
@@ -878,7 +878,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 
 
@@ -902,7 +902,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #tele-42-bgh{
+#tele-42-bgh{
     pointer-events: none;
     position: relative;
 }
@@ -918,7 +918,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #tele-32-phillip{
     pointer-events: none;
@@ -992,7 +992,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #play-3-kit-move{
+#play-3-kit-move{
     pointer-events: none;
     position: relative;
 }
@@ -1008,7 +1008,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #extensor-wifi-tplink{
     pointer-events: none;
@@ -1192,7 +1192,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #reflector-50w{
+#reflector-50w{
     pointer-events: none;
     position: relative;
 }
@@ -1208,7 +1208,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #cochecito-bebe{
     pointer-events: none;
@@ -1354,7 +1354,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #juego-prensa-asador{
+#juego-prensa-asador{
     pointer-events: none;
     position: relative;
 }
@@ -1370,9 +1370,9 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
-/* #plancheta{
+#plancheta{
     pointer-events: none;
     position: relative;
 }
@@ -1388,7 +1388,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #colchon-meyer{
     pointer-events: none;
