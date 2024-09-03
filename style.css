@@ -145,7 +145,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #placard-melamina{
+#placard-melamina{
     pointer-events: none;
     position: relative;
 }
@@ -161,7 +161,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #chifonier-mela{
     pointer-events: none;
@@ -199,7 +199,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #mesas-de-luz{
+#mesas-de-luz{
     pointer-events: none;
     position: relative;
 }
@@ -215,7 +215,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #baulera-infantil{
     pointer-events: none;
@@ -289,7 +289,7 @@ button:hover {
     font-size: 36px;
 } */
 
-#repisa-infantil{
+/* #repisa-infantil{
     pointer-events: none;
     position: relative;
 }
@@ -305,7 +305,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-}
+} */
 
 #contenedor-vertical{
     pointer-events: none;
@@ -524,7 +524,7 @@ button:hover {
     border-radius: 10px;
     font-size: 36px;
 } */
-/* #bordeadora{
+#bordeadora{
     pointer-events: none;
     position: relative;
 }
@@ -540,7 +540,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /*............................ ACA EMPIEZAN LOS ELECTRODOMESTICOS.....................*/
 
@@ -670,7 +670,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #nebulizador-silfab{
+#nebulizador-silfab{
     pointer-events: none;
     position: relative;
 }
@@ -686,7 +686,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #lustro-aspiradora{
     pointer-events: none;
@@ -902,11 +902,11 @@ button:hover {
     font-size: 36px;
 }
 
-#tele-42-bgh{
+#tele-32-bgh{
     pointer-events: none;
     position: relative;
 }
-#tele-42-bgh::after{
+#tele-32-bgh::after{
     content: "VENDIDO";
     position: absolute;
     top: 120%;
