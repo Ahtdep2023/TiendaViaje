@@ -253,7 +253,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #camita-infantil{
+#camita-infantil{
     pointer-events: none;
     position: relative;
 }
@@ -269,9 +269,9 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
-/* #mesa-luz-infantil{
+#mesa-luz-infantil{
     pointer-events: none;
     position: relative;
 }
@@ -287,7 +287,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #repisa-infantil{
     pointer-events: none;
@@ -1138,7 +1138,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #metegol-aluminio{
+#metegol-aluminio{
     pointer-events: none;
     position: relative;
 }
@@ -1154,7 +1154,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #disco-de-arado{
     pointer-events: none;
