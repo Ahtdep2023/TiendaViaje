@@ -845,7 +845,7 @@ button:hover {
     border-radius: 10px;
     font-size: 36px;
 }
-/* #batidora-atma{
+#batidora-atma{
     pointer-events: none;
     position: relative;
 }
@@ -861,7 +861,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 #lavarropa-gafa{
     pointer-events: none;
     position: relative;
@@ -956,7 +956,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #proyector-wambo{
+#proyector-wambo{
     pointer-events: none;
     position: relative;
 }
@@ -972,7 +972,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #pile-lona{
     pointer-events: none;
