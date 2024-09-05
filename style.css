@@ -1084,7 +1084,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #mesa-carro-playa{
+#mesa-carro-playa{
     pointer-events: none;
     position: relative;
 }
@@ -1100,7 +1100,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #carpa-automatica-playa{
     pointer-events: none;
@@ -1156,7 +1156,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #disco-de-arado{
+/* #disco-de-arado{ 
     pointer-events: none;
     position: relative;
 }
@@ -1390,7 +1390,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #colchon-meyer{
+#colchon-meyer{
     pointer-events: none;
     position: relative;
 }
@@ -1406,7 +1406,8 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
+
 /* @media screen and (max-width: 425px) {
   .producto img:hover{
     transform: scale(2.5);
