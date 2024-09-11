@@ -974,7 +974,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #pile-lona{
+#pile-lona{
     pointer-events: none;
     position: relative;
 }
@@ -984,13 +984,13 @@ button:hover {
     top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 160px;
+    height: 200px;
     background-color: rgba(255, 0, 0, 0.9);
     color: white;
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #play-3-kit-move{
     pointer-events: none;
@@ -1156,23 +1156,23 @@ button:hover {
     font-size: 36px;
 }
 
-/* #disco-de-arado{ 
+#disco-de-arado{ 
     pointer-events: none;
     position: relative;
 }
 #disco-de-arado::after{
     content: "VENDIDO";
     position: absolute;
-    top: 100%;
+    top: 140%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 160px;
+    height: 180px;
     background-color: rgba(255, 0, 0, 0.9);
     color: white;
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #dispenser-frio-calor{
     pointer-events: none;
@@ -1395,6 +1395,24 @@ button:hover {
     position: relative;
 }
 #colchon-meyer::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+}
+
+#colchon-Piero{
+    pointer-events: none;
+    position: relative;
+}
+#colchon-Piero::after{
     content: "VENDIDO";
     position: absolute;
     top: 100%;
