@@ -417,7 +417,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #moladora-black{
+#moladora-black{
     pointer-events: none;
     position: relative;
 }
@@ -433,7 +433,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #cortadora-de-pasto{
     pointer-events: none;
@@ -507,7 +507,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #lijadora-barovo{
+#lijadora-barovo{
     pointer-events: none;
     position: relative;
 }
@@ -523,7 +523,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 #bordeadora{
     pointer-events: none;
     position: relative;
@@ -706,7 +706,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #cafetera-dolce-gusto{
+#cafetera-dolce-gusto{
     pointer-events: none;
     position: relative;
 }
@@ -722,7 +722,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #tostadora-phillips{
     pointer-events: none;
@@ -1010,23 +1010,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #extensor-wifi-tplink{
-    pointer-events: none;
-    position: relative;
-}
-#extensor-wifi-tplink::after{
-    content: "VENDIDO";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 160px;
-    background-color: rgba(255, 0, 0, 0.9);
-    color: white;
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 36px;
-} */
+
 
 /* #bici-rodado{
     pointer-events: none;
@@ -1102,7 +1086,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #carpa-automatica-playa{
+#carpa-automatica-playa{
     pointer-events: none;
     position: relative;
 }
@@ -1118,7 +1102,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #membrana-asfaltica{
     pointer-events: none;
