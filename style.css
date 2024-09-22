@@ -163,6 +163,42 @@ button:hover {
     font-size: 36px;
 }
 
+#alacena-grande{
+    pointer-events: none;
+    position: relative;
+}
+#alacena-grande::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+}
+
+#alacena-chica{
+    pointer-events: none;
+    position: relative;
+}
+#alacena-chica::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+}
+
 #chifonier-mela{
     pointer-events: none;
     position: relative;
@@ -235,7 +271,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #cama-marinera{
+#cama-marinera{
     pointer-events: none;
     position: relative;
 }
@@ -251,7 +287,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #camita-infantil{
     pointer-events: none;
@@ -938,7 +974,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #tele-24{
+#tele-24{
     pointer-events: none;
     position: relative;
 }
@@ -954,7 +990,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #proyector-wambo{
     pointer-events: none;
@@ -1012,7 +1048,7 @@ button:hover {
 
 
 
-/* #bici-rodado{
+#bici-rodado{
     pointer-events: none;
     position: relative;
 }
@@ -1028,7 +1064,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #set-libros{
     pointer-events: none;
@@ -1158,7 +1194,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #dispenser-frio-calor{
+#dispenser-frio-calor{
     pointer-events: none;
     position: relative;
 }
@@ -1174,7 +1210,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #reflector-50w{
     pointer-events: none;
@@ -1230,7 +1266,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #patas-de-rana{
+#patas-de-rana{
     pointer-events: none;
     position: relative;
 }
@@ -1246,7 +1282,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /* #paraguas-varios{
     pointer-events: none;
