@@ -127,6 +127,42 @@ button:hover {
     font-size: 36px;
 }
 
+#sillon-dos-cuerpos{
+    pointer-events: none;
+    position: relative;
+}
+#sillon-dos-cuerpos::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 170px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+}
+
+#impresora-epson{
+    pointer-events: none;
+    position: relative;
+}
+#impresora-epson::after{
+    content: "VENDIDO";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 170px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 36px;
+}
+
 #baihut{
     pointer-events: none;
     position: relative;
@@ -217,7 +253,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #zapatero-melamina{
+#zapatero-melamina{
     pointer-events: none;
     position: relative;
 }
@@ -233,7 +269,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #mesas-de-luz{
     pointer-events: none;
@@ -688,7 +724,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #secador-phillip{
+#secador-phillip{
     pointer-events: none;
     position: relative;
 }
@@ -704,7 +740,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 #nebulizador-silfab{
     pointer-events: none;
@@ -778,7 +814,7 @@ button:hover {
     font-size: 36px;
 } */
 
-/* #vaporera-liliana{
+#vaporera-liliana{
     pointer-events: none;
     position: relative;
 }
@@ -794,9 +830,9 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
-/* #cafetera-moulinex{
+#cafetera-moulinex{
     pointer-events: none;
     position: relative;
 }
@@ -812,7 +848,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 #ventilador-liliana{
     pointer-events: none;
     position: relative;
@@ -1066,7 +1102,7 @@ button:hover {
     font-size: 36px;
 }
 
-/* #set-libros{
+#set-libros{
     pointer-events: none;
     position: relative;
 }
@@ -1082,7 +1118,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     font-size: 36px;
-} */
+}
 
 /*........................ACA EMPIEZAN LOS VARIOS.....................*/
 
